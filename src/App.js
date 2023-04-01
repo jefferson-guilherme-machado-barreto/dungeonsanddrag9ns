@@ -3,6 +3,7 @@ import { Login } from './pages/Login'
 import { Register } from './pages/Register'
 import { Home } from './pages/Home'
 import { AddItem } from "./pages/AddItem"
+import { ChangeItems } from './pages/ChangeItems'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/register" element={<Register/>} />
           <Route path="/" element={<Home/>} />
           <Route path="/addItem" element={<AddItem/>} />
+          <Route path="/changeItem" element={<ChangeItems/>} />
       </Routes>
     </BrowserRouter>
   );
